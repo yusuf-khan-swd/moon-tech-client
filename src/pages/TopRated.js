@@ -1,11 +1,11 @@
 import React from "react";
 import ProductCard from "../components/ProductCard";
-import { useProduct } from "../context/ProductProvider";
+import { useProducts } from "../context/ProductProvider";
 
 const TopRated = () => {
   const {
     state: { products, loading, error },
-  } = useProduct();
+  } = useProducts();
 
   let content;
 

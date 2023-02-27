@@ -29,7 +29,7 @@ const ProductProvider = ({ children }) => {
   );
 };
 
-export const useProduct = () => {
+export const useProducts = () => {
   const context = useContext(PRODUCT_CONTEXT);
   return context;
 };
